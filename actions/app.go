@@ -60,6 +60,7 @@ func App() *buffalo.App {
 		app.Use(translations())
 
 		app.GET("/", HomeHandler)
+		app.GET("/health", HealthCheckHandler)
 
 		//AuthMiddlewares
 		app.Use(SetCurrentUserMiddleware)
