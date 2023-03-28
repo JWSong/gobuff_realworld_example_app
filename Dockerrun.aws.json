@@ -1,0 +1,11 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Ports": [
+      {
+        "ContainerPort": 8080,
+        "HostPort": 5000
+      }
+    ],
+    "Entrypoint": "/bin/myapp"
+  }
+  
