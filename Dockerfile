@@ -24,7 +24,7 @@ ENV GO_ENV=production
 # Bind the app to 0.0.0.0 so it can be seen from outside the container
 ENV ADDR=0.0.0.0
 
-EXPOSE 3000
+EXPOSE 80
 
 ## Add the wait script to the image
 ADD https://github.com/ufoscout/docker-compose-wait/releases/download/2.9.0/wait /wait
