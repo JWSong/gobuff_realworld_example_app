@@ -23,6 +23,7 @@ ENV GO_ENV=production
 
 # Bind the app to 0.0.0.0 so it can be seen from outside the container
 ENV ADDR=0.0.0.0
+ENV PORT=80
 
 EXPOSE 80
 
